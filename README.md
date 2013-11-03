@@ -3,7 +3,7 @@ puremise.js
 
 Yet another purely functional Promise Monad implementation
 
-[http://blog.fatihak.in/fonksiyonel-programlama-notlari-promise-monad-pure-functional/](Implementation Details in Turkish)
+[Implementation Details in Turkish](http://blog.fatihak.in/fonksiyonel-programlama-notlari-promise-monad-pure-functional/)
 
 ## Examples
 
