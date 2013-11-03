@@ -59,6 +59,7 @@ y.reject(); //=> "something rejected!"
 function defer() {
   var deferred = Promise();
   setTimeout(deferred.resolve, 1000);
+  return deferred;
 }
 
 defer().success(function () {
