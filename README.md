@@ -1,7 +1,7 @@
 puremise.js
 ===========
 
-Yet another purely functional Promise Monad implementation
+Yet another purely functional Promise Monad implementation. I tried to implement it obeying functional programming rules.
 
 [Implementation Details in Turkish](http://blog.fatihak.in/fonksiyonel-programlama-notlari-promise-monad-pure-functional/)
 
