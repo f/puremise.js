@@ -3,6 +3,8 @@ puremise.js
 
 Yet another purely functional Promise Monad implementation
 
+[http://blog.fatihak.in/fonksiyonel-programlama-notlari-promise-monad-pure-functional/](Implementation Details [TR])
+
 ## Examples
 
 ```javascript
@@ -49,6 +51,21 @@ When([x, y]).success(function () {
 });
 
 y.reject(); //=> "something rejected!"
+```
+
+## Async Usage
+
+```javascript
+function defer() {
+  var deferred = Promise();
+  setTimeout(deferred.resolve, 1000);
+}
+
+defer().success(function () {
+  console.log("this will be resolved after 1 sec.!");
+});
+
+// after 1 sec: => "this will be resolved after 1 sec.!"
 ```
 
 ## License
